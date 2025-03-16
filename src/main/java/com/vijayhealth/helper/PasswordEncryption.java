@@ -13,6 +13,7 @@ public class PasswordEncryption {
 
     private static final String ALGORITHM = "AES";
 
+
     public static   String encrypt(String data, SecretKey secretKey) throws Exception {
         Cipher cipher = Cipher.getInstance("AES");
         cipher.init(Cipher.ENCRYPT_MODE, secretKey);
