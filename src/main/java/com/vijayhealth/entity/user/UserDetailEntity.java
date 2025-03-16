@@ -16,7 +16,7 @@ public class UserDetailEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     @Column(name = "res_id")
     private Long resId;
